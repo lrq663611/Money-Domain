@@ -1,0 +1,104 @@
+body{
+	font-family:arial;
+	margin:0;
+	padding:0;
+	border:0;
+}
+a{
+	color:tomato;
+}
+.margin-auto{
+	margin:auto;
+}
+.float-right{
+	float:right;
+}
+.width-container{
+	width: 100%;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.top-bar{
+	background-color:gainsboro;
+}
+.top-bar-link{
+	color:#fff;
+	line-height:50px;
+	display:inline-block;
+	width:200px;
+	text-align:center;
+	float: right;
+}
+.top-bar-link:hover{
+	background-color:tomato;
+}
+.dashboard-home-link{
+	background-color:tomato;
+	color:#fff;
+	font-size:20px;
+	line-height:100px;
+	display:inline-block;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align:center;
+	float:left;
+	text-decoration:none;
+}
+table{
+	width: 100%;
+	text-align: center;
+}
+form{
+	text-align:center;
+	width:600px;
+	margin:auto;
+	overflow: hidden;
+}
+input[type=text], input[type=password], select{
+	width:100%;
+	height: 30px;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	width:200px;
+	background-color: tomato;
+	border: 0;
+	color: #fff;
+	line-height: 30px;
+	font-size: 20px;
+	cursor:pointer;
+	float:left;
+	padding:0;
+}
+.table-btn{
+	background-color:tomato;
+	color:#fff;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding:5px;
+}
+.action-btn{
+	background-color:tomato;
+	color:#fff;
+	display:block;
+	line-height:30px;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+}
+.delete-btn{
+	background-color: gainsboro !important;
+	color:#fff;
+	display:block;
+	line-height:30px;
+	text-align:center;
+	width:200px;
+	text-decoration:none;
+	margin: auto;
+}

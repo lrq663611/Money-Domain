@@ -1,0 +1,65 @@
+body{
+	font-family:arial;
+	margin:0;
+	padding:0;
+	border:0;
+}
+a{
+	color:tomato;
+}
+.width-container{
+	width: 100%;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.navbar, .sub-navbar{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.sub-navbar{
+	background-color:tomato;
+	position: absolute;
+	display:none;
+	width:200px;
+	padding-left:20px;
+	margin-left: -20px;
+}
+.dropdown{
+	float:left;
+	background: tomato;
+	padding-left:20px;
+	padding-right:20px;
+	margin-right: 1px;
+	line-height: 40px;
+}
+.dropdown:hover>.sub-navbar{
+	display:block;
+}
+.sub-dropdown{
+	color: orange;
+}
+.navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 13px;
+}
+.navbar a:hover{
+	color:orange;
+}
+.table-heading{
+	display: block;
+	text-decoration: none;
+	color: orange;
+}
+.show-result-table{
+	text-align: center;
+}
+.show-result-table td{
+	background-color: gainsboro;
+}
+.show-result-table td:empty{
+	background-color: #fff;
+}

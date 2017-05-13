@@ -1,0 +1,1 @@
+<div class="width-container top-bar"><a href="dashboard.php" class="top-bar-link" style="float:left;">HOME</a><a href="logout.php" class="top-bar-link">LOGOUT</a><a href="edit_account.php" class="top-bar-link">MY ACCOUNT</a></div>
